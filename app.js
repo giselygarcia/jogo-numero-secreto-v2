@@ -40,6 +40,7 @@ function verificarChute() {
         } else {
             exibirTextoNaTela('p', "O número secreto é maior que " + chute);
         }
+        tentativas++;
         limparCampo();
 }
 }
